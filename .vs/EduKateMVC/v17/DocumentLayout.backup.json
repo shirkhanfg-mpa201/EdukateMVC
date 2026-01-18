@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\EduKateMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|c:\\users\\user\\source\\repos\\edukatemvc\\edukatemvc\\areas\\admin\\views\\course\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|solutionrelative:edukatemvc\\areas\\admin\\views\\course\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|c:\\users\\user\\source\\repos\\edukatemvc\\edukatemvc\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|solutionrelative:edukatemvc\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|c:\\users\\user\\source\\repos\\edukatemvc\\edukatemvc\\areas\\admin\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|solutionrelative:edukatemvc\\areas\\admin\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|c:\\users\\user\\source\\repos\\edukatemvc\\edukatemvc\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|solutionrelative:edukatemvc\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|c:\\users\\user\\source\\repos\\edukatemvc\\edukatemvc\\areas\\admin\\views\\course\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|solutionrelative:edukatemvc\\areas\\admin\\views\\course\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5202F59F-05A8-42C0-ADF9-C522B056110D}|EduKateMVC\\EduKateMVC.csproj|c:\\users\\user\\source\\repos\\edukatemvc\\edukatemvc\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -187,12 +187,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\EduKateMVC\\EduKateMVC\\Areas\\Admin\\Views\\Course\\Update.cshtml",
               "RelativeDocumentMoniker": "EduKateMVC\\Areas\\Admin\\Views\\Course\\Update.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\EduKateMVC\\EduKateMVC\\Areas\\Admin\\Views\\Course\\Update.cshtml*",
-              "RelativeToolTip": "EduKateMVC\\Areas\\Admin\\Views\\Course\\Update.cshtml*",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\EduKateMVC\\EduKateMVC\\Areas\\Admin\\Views\\Course\\Update.cshtml",
+              "RelativeToolTip": "EduKateMVC\\Areas\\Admin\\Views\\Course\\Update.cshtml",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-18T15:30:59.285Z",
@@ -200,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\EduKateMVC\\EduKateMVC\\Areas\\Admin\\Views\\Course\\Create.cshtml",
               "RelativeDocumentMoniker": "EduKateMVC\\Areas\\Admin\\Views\\Course\\Create.cshtml",

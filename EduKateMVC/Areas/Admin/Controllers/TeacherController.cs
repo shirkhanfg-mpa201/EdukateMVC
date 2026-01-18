@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EduKateMVC.Areas.Admin.Controllers;
 [Area("Admin")]
-
+//[Authorize(Roles = "Admin")]
 public class TeacherController(AppDbContexts _context) : Controller
 {
     public async Task<IActionResult> Index()

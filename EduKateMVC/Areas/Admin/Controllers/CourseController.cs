@@ -2,6 +2,7 @@
 using EduKateMVC.FileHelpers;
 using EduKateMVC.Models;
 using EduKateMVC.ViewModels.CourseViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace EduKateMVC.Areas.Admin.Controllers;
 [Area("Admin")]
+//[Authorize(Roles = "Admin")]
 
 public class CourseController : Controller
 {
