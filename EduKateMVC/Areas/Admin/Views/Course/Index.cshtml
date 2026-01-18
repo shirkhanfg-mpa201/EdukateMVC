@@ -1,0 +1,40 @@
+﻿@using EduKateMVC.Models
+@using EduKateMVC.ViewModels.CourseViewModels
+
+@model List<CourseGetVM>
+
+<table class="table">
+    <thead>
+        <div class="">
+            <a asp-action="Create" asp-controller="Course" asp-area="Admin" class="btn btn-success">Add New Teacher</a>
+        </div>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">ImageUrl</th>
+            <th scope="col">Rating</th>
+            <th scope="col">Teacher</th>
+            <th scope="col">Actions</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in Model)
+        {
+            <tr>
+                <th scope="row">@course.Id</th>
+                <td>@course.Title</td>
+                <td>@course.ImageUrl</td>
+                <td>@course.Rating</td>
+                <td>@course.TeacherName</td>
+                <td>
+                    <a asp-area="Admin" asp-controller="Course" asp-action="Update" asp-route-id="@course.Id" class="btn btn-warning">Update</a>
+                    <a asp-area="Admin" asp-controller="Course" asp-action="Delete" asp-route-id="@course.Id" class=" btn btn-danger deleteBtn">Delete</a>
+                </td>
+
+            </tr>
+
+        }
+    </tbody>
+</table>
+
